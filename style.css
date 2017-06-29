@@ -1,0 +1,325 @@
+body{
+	color:black;
+	margin:0;
+	background-image: url('images/back.png');
+	font-family: 'Raleway', sans-serif;
+}
+h3{
+	margin-bottom:0.5%;
+}
+.login{
+	margin:7%;
+	margin-left:15%;
+	margin-right:15%;
+	text-align:center;
+	background-image: url('images/loginFront.png');
+	background-size:100% 100%;
+	
+}
+.login img{
+	padding-top: 2%;
+}
+.padFront{
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+.padFront h1{
+	padding-bottom:2%;
+
+}
+.padFront button,form,input{
+	margin-bottom:2%;
+	text-align:center;
+	font-size:1.2em;
+}
+select{
+	font-size:1.2em;
+}
+.error{
+	border: 1px solid red;
+	background: url(images/cross.png) no-repeat scroll 100% 0px;
+	background-size:contain;
+	background-color:white;
+}
+.box {
+	background-color: #005F6B;
+	color: #e6e7e8;
+	border-radius: 1px;
+	padding: 10%;
+	font-size: 1.2em;
+	cursor:pointer;
+	text-align:center;
+}
+.art{
+	width:100%;
+}
+.poster{
+	margin:0;
+	padding:2%;
+	
+	width:20%;
+
+}
+
+.tick{
+	height:30px;
+}
+.previousSearch{
+	display:inline-block;
+	margin:0.5%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	border:2px solid #343838;
+	color: #343838;
+	cursor:pointer;
+	font-size:0.8em;
+}
+.errorMessage{
+	display:inline;
+}
+.clear{
+	width:100%;
+	clear:both;
+}
+#recentSearch{
+	margin:0 auto;
+	margin-bottom:2%;
+}
+#addPosters{
+	height:50%;
+	width:100%;
+	
+	text-align:center;
+
+}
+#topNav{
+	width:100%;
+	background-image: url('images/back.png');
+	background-color:#343838;
+	text-align:center; 
+	position:fixed;
+}
+#search{
+	background-image: url('images/backWhite.png') ;
+	padding-top:5%;
+	overflow:auto;
+}
+#search h1{
+	text-align:center;
+}
+
+#readable{
+	display:block;
+	text-align:center;
+	font-size:2em;
+	padding-bottom:1%;
+}
+#output{
+	display:inline;
+}
+#grid {
+	width:60%; 
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 3px;
+	margin:0px auto;
+}
+#clear{
+	background-color:#e6e7e8;
+	color:#343838;
+	border-bottom: 2px solid #005F6B;
+	border-right: 2px solid #005F6B;
+}
+
+
+#openButton{
+	background-image: url('images/backWhite.png') ;
+	text-align:center;
+	font-size:3em;
+	cursor:pointer;
+	padding-top:;
+}
+#searchButton{
+
+	cursor:pointer;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size:1.5em;
+	text-align:center;
+	margin-left:40%;
+	margin-right:40%;
+}
+#searchButton img {
+	height:8%;
+	min-height:20px;
+	min-width:55.8px;
+}
+#movieInformation{
+	padding-left:3%;
+	padding-right: 3%;
+	overflow:clear;
+	
+}
+#trailer{
+	height:80%;
+	width:80%;
+}
+#trailerContainer{
+	display:none;
+	background-color:black;
+	border:none;
+}
+#trailerContainer .trailerButton{
+	background-color:white;
+}
+#trailerContainer iframe{
+	display:block;
+	margin:0 auto;
+}
+
+.trailerButton{
+	
+	cursor:pointer;
+}
+#title{
+	font-size:2em;
+}
+#trailerButtonCointainer{
+	text-align:center;
+	margin-top: 2%;
+}
+#trailerButtonCointainer p{
+	margin:0;
+}
+#recentSearchDisplay{
+	
+	display:block;
+	text-align:center;
+	width:100%;
+
+}
+#overview{
+	padding-right:8%;
+	padding-top:3%;
+}
+#largeMoviePoster{
+	display:inline-block;
+	float:left;
+	height:auto;
+	width:25%;
+	padding-right:6%;
+	padding-left:2%;
+}
+#instructions{
+	color:white;
+	display:block;
+	text-align:center;
+}
+#homeImage{
+	display:inline-block;
+	float:left;
+	width:15%;
+	min-width:165px;
+	padding-left:1%;
+	cursor:pointer;
+}
+#settingsButton{
+	display:inline-block;
+	float:right;
+	width:5%;
+	min-width:50px;
+	padding-left:1%;
+	cursor:pointer;
+}
+#advancedOptions{
+	text-align:center;
+	padding-top:2%;
+	display:none;
+	vertical-align:right;
+	
+}
+#advancedButton{
+	text-decoration:underline;
+	display:block;
+	text-align:center;
+	cursor:pointer;
+	margin-top:3%;
+	font-size:1.2em;
+}
+#userMessage{
+	color:#e6e7e8;
+	display:none;
+	font-size: 2em;
+	text-align:center;
+}
+#vote_average input{
+	margin-bottom:0;
+}
+#sort{
+	width:40%;
+	padding-bottom:2%;
+	margin:0 auto;
+}
+#sort .box{
+	padding:1%;
+	display:inline-block;
+}
+#likeBanContainer img{
+	height:8%;
+}
+#like, #ban{
+	display:inline;
+	cursor:pointer;
+}
+#likeBanContainer{
+	text-align:center;
+	margin: 0 auto;
+
+}
+#logout{
+	cursor:pointer;
+}
+#release{
+	margin-top:10%;
+}
+#rating, #release{
+	font-size:1.1em;
+}
+.active{
+	background-color: #343838;
+	color:#00DFFC;
+}
+.dropdown {
+    display: inline-block;
+	float:right;
+}
+.dropdown-content {
+	float:right;
+	display:none;
+    position: absolute;
+	right:0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	background-image: url('images/back.png');
+}
+.dropdown-content a:visited{
+	color:white;
+	text-decoration:none;
+}
+.dropdown-content a:hover{
+	background-image: url('images/backWhite.png') ;
+	color:black;
+}
+.dropdown-content a {
+	font-size:2em;
+	color:white;
+    padding: 5%;
+	padding-top:15%;
+	padding-bottom:15%;
+    text-decoration: none;
+    display: block;
+}

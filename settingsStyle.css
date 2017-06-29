@@ -1,0 +1,71 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+#settingsContainer{
+	background-color:white;
+	height:auto;
+	width: auto;
+	display:block;
+	margin: 0 auto;
+}
+#settingDisplay{
+	
+}
+.contents{
+
+}
+.poster2{
+	margin:0;
+	padding:5px;
+	
+	width:40%;
+	height:auto;
+	float:left;
+}
+#addPosters{
+	height:100%;
+	width:100%;
+	text-align:center;
+	background-color:grey;
+
+}
+.settingsTitle{
+	text-align:center;
+	font-size:1.4em;
+	padding-bottom:2%;
+
+}
+.settingsFixture{
+	position:relative;
+	vertical-align:top;
+	padding:1%;
+	width:45%;
+	display:inline-block;
+	border-bottom: 2px solid black;
+	margin:2px;
+	overflow:auto;
+}
+
+.settingContainer{
+	display:inline-block;
+}
+.remove{
+
+	position:absolute;
+	display:block;
+	top:15px;
+	right:1%;
+	margin:0 auto;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	cursor:pointer;
+	
+}
+.remove img{
+	height:20px;
+}
+.ui-tabs-panel {
+    height: auto;
+    overflow-y: auto;
+}
